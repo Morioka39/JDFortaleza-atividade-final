@@ -1,0 +1,176 @@
+body{
+min-height: 100vh;
+max-width: 95%;
+box-sizing: border-box;
+background-color: #8bc34a;
+margin: 0;
+padding: 0;
+  
+} 
+
+
+header h1{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+    color: black;
+    background-color: #689f38;
+    width: 1350px;
+    height: 60px;
+    margin: 0;
+    text-align: center;
+    line-height: 60px;   
+    border-radius: 20px ;
+}
+
+
+
+main{
+    background-color: #99cc60;
+    width: 1348px;
+    height: 500px; 
+   float: left;
+}
+
+nav a{
+    background-color: #99cc60;
+    line-height: 100px;
+}
+
+#footer-index{ 
+    background-color: #99cc60;
+    width: 1340px;
+    height: 250px;
+    position: absolute;
+    top: 567px;
+    text-align: center;
+}
+
+#imagem{
+    height: 100px;
+}
+
+#footer img{
+    margin-left: 20px;
+}
+
+
+/*pagina acomodacoes*/
+
+#bloco{
+    text-align: center;
+    width: 900px;   
+    height: 500px;
+   margin-left: 300px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+.acomo-voltar{
+    background-color: #689f38;
+    position: absolute;
+    height: 500px;
+}
+ div img{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.picture{
+    background-color: #689f38;
+    padding: 10px;
+}
+
+/********************/
+
+
+ /*pagina serviços*/
+ 
+ #conteiner-tabela{
+
+  width: 400px;
+ position: absolute;
+ margin-left: 300px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 20px;
+}
+
+.serv-voltar{
+    background-color: #689f38;
+    position: absolute;
+    height: 460px;
+    margin-top: 10px;
+}
+
+.informacoes{
+    width: 470px;
+    float: right;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+.tabela{
+ border: 3px solid rgb(96, 104, 224);
+ margin-bottom: 10px;
+ width: 300px;
+ height: 100px;
+ background-color: rgb(240, 240, 240);
+}
+th{
+   border-bottom: 2px solid rgb(96, 104, 224); 
+   
+}
+
+span{
+    color: orange;
+    font-size: 20px;
+    
+}
+
+
+/**************************/
+
+/*pagina cadastro*/
+
+ #main-cadastro{
+   height: 590px;
+}
+form{
+    
+    width: 700px;
+    margin-left: 200px;
+    margin-top: 10px;
+   
+}
+input, select{
+    border-radius: 6px; 
+}
+
+.cadas-voltar{
+    background-color: #689f38;
+    position: absolute;
+    height: 560px;
+    margin-top: 10px;
+}
+
+/* pagina parceiros*/
+
+.par-voltar{
+    background-color: #689f38;
+    position: absolute;
+    height: 460px;
+    margin-top: 10px;
+}
+
+#parceiros{
+    margin-left: 300px;
+    margin-top: 10px;
+    width: 700px;
+    height: 460px;
+    float: left;
+}
+
+div .imagem2{
+margin-left:25% ;
+}

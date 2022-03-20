@@ -1,0 +1,37 @@
+/*footer acomodaçoes*/
+.acomo{
+    background-color: #689f38;
+  width: 1347px;
+  height: 100px;
+}
+
+/*footer serviços*/
+.footer-servi{
+    position: absolute;
+  background-color: #689f38;
+  width: 1347px;
+  height: 100px;
+  top:560px;
+}
+
+/*footer cadastro*/
+.footer-cadas{
+    position: absolute;
+    background-color: #689f38;
+    width: 1347px;
+    height: 100px;
+    top:650px;
+}
+
+/*footer parceiros*/
+.footer-parce{
+    position: absolute;
+    background-color: #689f38;
+    width: 1348px;
+    height: 117px;
+    top:560px;
+}
+
+footer p{
+    font-size: 25px;
+}
